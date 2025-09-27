@@ -1,10 +1,8 @@
 SELECT * FROM games LIMIT 10;
----------------------------
 SELECT "PLAYER_NAME", "PTS"
 FROM games_details
 WHERE "PTS" >= 50
 ORDER BY "PTS" DESC;
----------------------------
 SELECT
     "TEAM_ID",
     COUNT("GAME_ID") AS total_games,
@@ -17,7 +15,6 @@ GROUP BY
     "TEAM_ID"
 ORDER BY
     avg_points DESC;
-----------------------------
 SELECT
     p."PLAYER_NAME",
     SUM(gd."PTS") AS total_points
@@ -30,14 +27,12 @@ GROUP BY
 ORDER BY
     total_points DESC
 LIMIT 10;
-
 -- Считает среднее количество очков, набранных домашней и гостевой командами за все матчи.
 SELECT
     AVG("PTS_home") AS avg_home_pts,
     AVG("PTS_away") AS avg_away_pts
 FROM
     games;
-
 -- Находит 10 команд с наибольшим количеством побед в последнем сезоне.
 SELECT
     t."NICKNAME",
@@ -51,7 +46,6 @@ WHERE
 ORDER BY
     r."W" DESC
 LIMIT 10;
-
 -- Находит топ-5 игроков с максимальным количеством передач (AST) в одной игре.
 SELECT
     p."PLAYER_NAME",
@@ -64,7 +58,6 @@ JOIN
 ORDER BY
     gd."AST" DESC
 LIMIT 5;
-
 -- Рассчитывает средний процент побед (W_PCT) для каждой конференции.
 SELECT
     "CONFERENCE",
@@ -75,7 +68,6 @@ WHERE
     "SEASON_ID" = (SELECT MAX("SEASON_ID") FROM ranking)
 GROUP BY
     "CONFERENCE";
-
 -- Считает общее количество игр, в которых участвовал каждый игрок.
 SELECT
     p."PLAYER_NAME",
@@ -89,7 +81,6 @@ GROUP BY
 ORDER BY
     games_played DESC
 LIMIT 10;
-
 -- Находит игры, где было набрано наибольшее суммарное количество очков обеими командами.
 SELECT
     "GAME_ID",
@@ -99,13 +90,11 @@ FROM
 ORDER BY
     total_points DESC
 LIMIT 10;
-
 -- Считает общее количество игр, выигранных домашней командой.
 SELECT
     SUM("HOME_TEAM_WINS") AS home_wins_count
 FROM
     games;
-
 -- Рассчитывает среднее количество подборов для каждой команды за все игры.
 SELECT
     t."NICKNAME",
@@ -119,7 +108,6 @@ GROUP BY
 ORDER BY
     avg_rebounds DESC
 LIMIT 10;
-
 -- Находит игроков с лучшим процентом трехочковых (FG3_PCT) при условии, что они сделали не менее 100 бросков.
 SELECT
     p."PLAYER_NAME",
@@ -135,7 +123,6 @@ HAVING
 ORDER BY
     three_point_pct DESC
 LIMIT 10;
-
 -- Определяет города, в которых базируется наибольшее количество команд.
 SELECT
     "CITY",

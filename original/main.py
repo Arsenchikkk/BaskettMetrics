@@ -1,17 +1,19 @@
 import psycopg2
 import pandas as pd
+import re
 
 # Конфигурация подключения к базе данных
 DB_HOST = "localhost"
-DB_NAME = "nba db"  # Замените на имя вашей БД
-DB_USER = "postgres"   # Замените на ваше имя пользователя
-DB_PASS = "0000"         # Замените на ваш пароль
+DB_NAME = "nba db"  
+DB_USER = "postgres" 
+DB_PASS = "0000" 
 
 def run_query(query, save_to_csv=None):
     """
     Выполняет SQL-запрос и выводит результат в терминал.
     При необходимости сохраняет результат в CSV.
     """
+    conn = None  # Инициализируем conn, чтобы избежать второй ошибки
     try:
         conn = psycopg2.connect(host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASS)
         cur = conn.cursor()
@@ -34,36 +36,24 @@ def run_query(query, save_to_csv=None):
             conn.close()
 
 if __name__ == "__main__":
-    # Запрос из п. 4b
-    query_top_scorers = """
-    SELECT
-        p."PLAYER_NAME",
-        SUM(COALESCE(gd."PTS", 0)) AS total_points
-    FROM
-        games_details gd
-    JOIN
-        players p ON gd."PLAYER_ID" = p."PLAYER_ID"
-    GROUP BY
-        p."PLAYER_NAME"
-    ORDER BY
-        total_points DESC
-    LIMIT 10;
-    """
-    run_query(query_top_scorers)
+    # Путь к файлу с SQL-запросами
+    queries_file = "queries.sql"
 
-    # Пример запроса из п. 4c, с сохранением в файл
-    query_top_teams = """
-    SELECT
-        t."NICKNAME",
-        r."W"
-    FROM
-        ranking r
-    JOIN
-        teams t ON r."TEAM_ID" = t."TEAM_ID"
-    WHERE
-        r."SEASON_ID" = (SELECT MAX("SEASON_ID") FROM ranking)
-    ORDER BY
-        r."W" DESC
-    LIMIT 10;
-    """
-    run_query(query_top_teams, save_to_csv='top_teams.csv')
+    try:
+        # Читаем файл с явным указанием кодировки UTF-8 с BOM
+        with open(queries_file, 'r', encoding='utf-8-sig') as f:
+            content = f.read()
+
+        # Разделяем содержимое на отдельные запросы
+        queries = [q.strip() for q in content.split(';') if q.strip()]
+
+        # Выполняем каждый запрос из файла
+        for i, query in enumerate(queries):
+            print("-" * 50)
+            print(f"Выполняется Запрос #{i + 1}")
+            run_query(query)
+            
+    except FileNotFoundError:
+        print(f"Ошибка: Файл '{queries_file}' не найден.")
+    except Exception as e:
+        print(f"Произошла непредвиденная ошибка: {e}")
