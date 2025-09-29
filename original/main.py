@@ -275,6 +275,36 @@ def generate_all_charts():
                  color='purple'
     )
 
+    # 7. Диаграмма рассеяния: Взаимосвязь среднего PTS и среднего FG_PCT для всех игроков
+    query_7 = """
+    SELECT
+        ROUND(AVG(gd."PTS"), 2) AS avg_pts,
+        ROUND(AVG(gd."FG_PCT"), 4) AS avg_fg_pct
+    FROM
+        games_details gd
+    WHERE
+        gd."PTS" IS NOT NULL
+        AND gd."FG_PCT" IS NOT NULL
+    GROUP BY
+        gd."PLAYER_ID"
+    HAVING
+        COUNT(gd."GAME_ID") > 100 -- Минимум 100 игр для достоверности
+    ORDER BY
+        1 DESC
+    LIMIT 100; -- Ограничим до 100 игроков для наглядности
+    """
+    df_7 = run_query_to_df(query_7)
+    
+    # Нормализуем FG_PCT для лучшей визуализации (умножим на 100)
+    df_7['avg_fg_pct'] = df_7['avg_fg_pct'] * 100 
+    
+    create_chart(df_7, 
+                 "Взаимосвязь среднего PTS и среднего FG_PCT", 
+                 "Среднее PTS за игру", "Средний % попаданий с игры (FG_PCT, %)", 
+                 'scatter', "7_pts_vs_fgpct_scatter.png",
+                 color='blue', alpha=0.6, s=50
+    )
+
 
 # --- ЗАДАНИЕ 2: ВРЕМЕННОЙ ПОЛЗУНОК (15 БАЛЛОВ) ---
 
