@@ -1,0 +1,271 @@
+table_name: players
+main_dttm_col: update_time
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: nbadb
+schema: public
+sql: ''
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+folders: null
+uuid: d6a5c9a1-83bd-4581-abfd-75c9126174d0
+metrics:
+- metric_name: <new metric>
+  verbose_name: Normalized_Points
+  metric_type: null
+  expression: (AVG(points) - MIN(points) OVER ()) / (MAX(points) OVER () - MIN(points)
+    OVER ())
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: AVG vs Median Diff
+  verbose_name: AVG vs Median Diff
+  metric_type: null
+  expression: AVG(points) - PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY points)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: Growth Pct
+  verbose_name: Growth Pct
+  metric_type: null
+  expression: (SUM(points) - LAG(SUM(points)) OVER ()) / LAG(SUM(points)) OVER ()
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: Median Points
+  verbose_name: Median Points
+  metric_type: null
+  expression: PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY points)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: median_grade
+  verbose_name: median_grade
+  metric_type: null
+  expression: 'percentile_cont(0.5) WITHIN GROUP (ORDER BY grade)
+
+    '
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: Avrerage Points
+  verbose_name: ''
+  metric_type: null
+  expression: AVG(points)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: Total Assists
+  verbose_name: ''
+  metric_type: null
+  expression: SUM(assists)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: Total Points
+  verbose_name: ''
+  metric_type: null
+  expression: SUM(points)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: count
+  verbose_name: ''
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: avg_grade
+  verbose_name: avg_grade
+  metric_type: null
+  expression: AVG(grade)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+columns:
+- column_name: grade_category
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: null
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: "CASE\n  WHEN points BETWEEN 0 AND 10 THEN 'Low'\n  WHEN points BETWEEN\
+    \ 11 AND 20 THEN 'Medium'\n  WHEN points BETWEEN 21 AND 28 THEN 'Good'\n  WHEN\
+    \ points BETWEEN 29 AND 35 THEN 'High'\nEND\n"
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: Normalized\_Points
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: null
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: (points - MIN(points) OVER ()) / (MAX(points) OVER () - MIN(points)
+    OVER ())
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: update_time
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: TIMESTAMP WITHOUT TIME ZONE
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: PLAYER_NAME
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: TEXT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: PLAYER_ID
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: TEAM_ID
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: SEASON
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: latitude
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: NUMERIC
+  advanced_data_type: null
+  groupby: false
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: longitude
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: NUMERIC
+  advanced_data_type: null
+  groupby: false
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: assists
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: false
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+- column_name: points
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: false
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra:
+    warning_markdown: null
+version: 1.0.0
+database_uuid: 1ae99141-7122-4674-99ae-3259a6b3a3ea

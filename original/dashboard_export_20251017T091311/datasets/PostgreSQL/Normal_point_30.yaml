@@ -1,0 +1,101 @@
+table_name: Normal_point
+main_dttm_col: update_time
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: nbadb
+schema: public
+sql: "SELECT\n    \"PLAYER_NAME\",\n    \"points\",\n    -- \u0424\u043E\u0440\u043C\
+  \u0443\u043B\u0430 \u043D\u043E\u0440\u043C\u0430\u043B\u0438\u0437\u0430\u0446\u0438\
+  \u0438, \u0440\u0430\u0431\u043E\u0442\u0430\u044E\u0449\u0430\u044F \u043F\u043E\
+  \ \u0432\u0441\u0435\u043C \u0441\u0442\u0440\u043E\u043A\u0430\u043C:\n    (\"\
+  points\" - MIN(\"points\") OVER ()) / (MAX(\"points\") OVER () - MIN(\"points\"\
+  ) OVER ()) AS normalized_points,\n    \"update_time\",\n    \"TEAM_ID\"\nFROM public.players\
+  \ -- \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u0442\u043E\
+  \u0447\u043D\u043E\u0435, \u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u0438\u043C\
+  \u044F \u0442\u0430\u0431\u043B\u0438\u0446\u044B (\u043D\u0430\u043F\u0440\u0438\
+  \u043C\u0435\u0440, players, \"PLAYERS\", \u0438\u043B\u0438 \u0434\u0440\u0443\u0433\
+  \u043E\u0435)"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+folders: null
+uuid: 8245a572-187c-4785-8187-421ba8e2e0ee
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: PLAYER_NAME
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: TEAM_ID
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: update_time
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: DATETIME
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: normalized_points
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: points
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: 1ae99141-7122-4674-99ae-3259a6b3a3ea

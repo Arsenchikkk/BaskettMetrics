@@ -1,0 +1,17 @@
+database_name: PostgreSQL
+sqlalchemy_uri: postgresql://postgres:XXXXXXXXXX@host.docker.internal:5432/nbadb
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: true
+extra:
+  metadata_params: {}
+  engine_params: {}
+  metadata_cache_timeout: {}
+  schemas_allowed_for_file_upload: []
+impersonate_user: false
+uuid: 1ae99141-7122-4674-99ae-3259a6b3a3ea
+version: 1.0.0

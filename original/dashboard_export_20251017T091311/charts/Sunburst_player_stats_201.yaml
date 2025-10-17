@@ -1,0 +1,57 @@
+slice_name: Sunburst player stats
+description: null
+certified_by: null
+certification_details: null
+viz_type: sunburst_v2
+params:
+  datasource: 28__table
+  viz_type: sunburst_v2
+  matrixify_show_column_headers: true
+  matrixify_mode_columns: metrics
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_topn_order_columns: desc
+  matrixify_show_row_labels: true
+  matrixify_mode_rows: metrics
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_topn_order_rows: desc
+  matrixify_row_height: 300
+  matrixify_fit_columns_dynamically: true
+  matrixify_charts_per_row: 4
+  columns:
+  - SEASON
+  - TEAM_ID
+  - PLAYER_NAME
+  metric: Total Points
+  adhoc_filters:
+  - clause: WHERE
+    subject: update_time
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  row_limit: 10000
+  color_scheme: supersetColors
+  linear_color_scheme: superset_seq_1
+  show_labels_threshold: 5
+  label_type: key
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: '{"datasource":{"id":28,"type":"table"},"force":false,"queries":[{"filters":[{"col":"update_time","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["SEASON","TEAM_ID","PLAYER_NAME"],"metrics":["Total
+  Points"],"annotation_layers":[],"row_limit":10000,"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"28__table","viz_type":"sunburst_v2","matrixify_show_column_headers":true,"matrixify_mode_columns":"metrics","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_topn_order_columns":"desc","matrixify_show_row_labels":true,"matrixify_mode_rows":"metrics","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_topn_order_rows":"desc","matrixify_row_height":300,"matrixify_fit_columns_dynamically":true,"matrixify_charts_per_row":4,"columns":["SEASON","TEAM_ID","PLAYER_NAME"],"metric":"Total
+  Points","adhoc_filters":[{"clause":"WHERE","subject":"update_time","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"row_limit":10000,"color_scheme":"supersetColors","linear_color_scheme":"superset_seq_1","show_labels_threshold":5,"label_type":"key","number_format":"SMART_NUMBER","date_format":"smart_date","extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 03165a1a-058e-4a00-a6ce-b12bcc91c4b5
+version: 1.0.0
+dataset_uuid: d6a5c9a1-83bd-4581-abfd-75c9126174d0

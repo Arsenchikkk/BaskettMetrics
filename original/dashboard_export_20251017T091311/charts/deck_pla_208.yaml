@@ -1,0 +1,88 @@
+slice_name: deck pla
+description: null
+certified_by: null
+certification_details: null
+viz_type: deck_screengrid
+params:
+  datasource: 28__table
+  viz_type: deck_screengrid
+  matrixify_show_column_headers: true
+  matrixify_mode_columns: metrics
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_topn_order_columns: desc
+  matrixify_show_row_labels: true
+  matrixify_mode_rows: metrics
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_topn_order_rows: desc
+  matrixify_row_height: 300
+  matrixify_fit_columns_dynamically: true
+  matrixify_charts_per_row: 4
+  spatial:
+    type: latlong
+    latCol: latitude
+    lonCol: longitude
+  size: Total Points
+  row_limit: 10000
+  filter_nulls: true
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: update_time
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_xi7q6ukh3b_7ulzal8gw22
+  - expressionType: SIMPLE
+    subject: points
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_h4rzjfy0dan_f7h511ttagn
+  tooltip_contents: []
+  mapbox_style: https://tile.osm.ch/osm-swiss-style/{z}/{x}/{y}.png
+  autozoom: true
+  viewport:
+    longitude: 6.85236157047845
+    latitude: 31.222656842808707
+    zoom: 1
+    bearing: 0
+    pitch: 0
+  grid_size: 20
+  color_scheme_type: default
+  color_picker:
+    r: 0
+    g: 122
+    b: 135
+    a: 1
+  color_scheme: supersetColors
+  js_columns: []
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: '{"datasource":{"id":28,"type":"table"},"force":false,"queries":[{"filters":[{"col":"update_time","op":"TEMPORAL_RANGE","val":"No
+  filter"},{"col":"points","op":"TEMPORAL_RANGE","val":"No filter"},{"col":"longitude","op":"IS
+  NOT NULL","val":null},{"col":"latitude","op":"IS NOT NULL","val":null}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["longitude","latitude"],"metrics":["Total
+  Points"],"orderby":[["Total Points",false]],"annotation_layers":[],"row_limit":10000,"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"is_timeseries":false}],"form_data":{"datasource":"28__table","viz_type":"deck_screengrid","matrixify_show_column_headers":true,"matrixify_mode_columns":"metrics","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_topn_order_columns":"desc","matrixify_show_row_labels":true,"matrixify_mode_rows":"metrics","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_topn_order_rows":"desc","matrixify_row_height":300,"matrixify_fit_columns_dynamically":true,"matrixify_charts_per_row":4,"spatial":{"type":"latlong","latCol":"latitude","lonCol":"longitude"},"size":"Total
+  Points","row_limit":10000,"filter_nulls":true,"adhoc_filters":[{"expressionType":"SIMPLE","subject":"update_time","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_xi7q6ukh3b_7ulzal8gw22"},{"expressionType":"SIMPLE","subject":"points","operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","comparator":"No
+  filter","clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_h4rzjfy0dan_f7h511ttagn"}],"tooltip_contents":[],"mapbox_style":"https://tile.osm.ch/osm-swiss-style/{z}/{x}/{y}.png","autozoom":true,"viewport":{"longitude":6.85236157047845,"latitude":31.222656842808707,"zoom":1,"bearing":0,"pitch":0},"grid_size":20,"color_scheme_type":"default","color_picker":{"r":0,"g":122,"b":135,"a":1},"color_scheme":"supersetColors","js_columns":[],"extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 7f438cc7-26b1-4ef7-aab4-5abef0b09013
+version: 1.0.0
+dataset_uuid: d6a5c9a1-83bd-4581-abfd-75c9126174d0

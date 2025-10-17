@@ -1,0 +1,52 @@
+slice_name: Time-series player stats
+description: null
+certified_by: null
+certification_details: null
+viz_type: time_table
+params:
+  datasource: 28__table
+  viz_type: time_table
+  matrixify_show_column_headers: true
+  matrixify_mode_columns: metrics
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_topn_order_columns: desc
+  matrixify_show_row_labels: true
+  matrixify_mode_rows: metrics
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_topn_order_rows: desc
+  matrixify_row_height: 300
+  matrixify_fit_columns_dynamically: true
+  matrixify_charts_per_row: 4
+  granularity_sqla: update_time
+  time_grain_sqla: PT30S
+  time_range: No filter
+  metrics:
+  - Total Points
+  - count
+  - Avrerage Points
+  - Total Assists
+  adhoc_filters: []
+  groupby: []
+  limit: 500
+  column_collection:
+  - key: WUxQITBfI4p
+  row_limit: 5000
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: '{"datasource":{"id":28,"type":"table"},"force":false,"queries":[{"time_range":"No
+  filter","granularity":"update_time","filters":[],"extras":{"time_grain_sqla":"PT30S","having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":["Total
+  Points","count","Avrerage Points","Total Assists"],"annotation_layers":[],"row_limit":5000,"series_limit":500,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"28__table","viz_type":"time_table","matrixify_show_column_headers":true,"matrixify_mode_columns":"metrics","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_topn_order_columns":"desc","matrixify_show_row_labels":true,"matrixify_mode_rows":"metrics","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_topn_order_rows":"desc","matrixify_row_height":300,"matrixify_fit_columns_dynamically":true,"matrixify_charts_per_row":4,"granularity_sqla":"update_time","time_grain_sqla":"PT30S","time_range":"No
+  filter","metrics":["Total Points","count","Avrerage Points","Total Assists"],"adhoc_filters":[],"groupby":[],"limit":500,"column_collection":[{"key":"WUxQITBfI4p"}],"row_limit":5000,"extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 772eb2e7-3b5f-4a4c-92b0-879828816006
+version: 1.0.0
+dataset_uuid: d6a5c9a1-83bd-4581-abfd-75c9126174d0

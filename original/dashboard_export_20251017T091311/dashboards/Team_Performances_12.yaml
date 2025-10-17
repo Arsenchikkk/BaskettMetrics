@@ -1,0 +1,1630 @@
+dashboard_title: Team Performances
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: 2d778f13-2c6d-4afb-8fe0-04e4f8765732
+position:
+  CHART-explore-200-1:
+    children: []
+    id: CHART-explore-200-1
+    meta:
+      chartId: 200
+      height: 50
+      sliceName: Heatmap
+      uuid: bfa6be76-ed83-4c74-b49b-fdf70709531b
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-x13miz0NlBtj7lLhxBJV8
+    type: CHART
+  CHART-explore-201-1:
+    children: []
+    id: CHART-explore-201-1
+    meta:
+      chartId: 201
+      height: 50
+      sliceName: Sunburst player stats
+      uuid: 03165a1a-058e-4a00-a6ce-b12bcc91c4b5
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-x13miz0NlBtj7lLhxBJV8
+    type: CHART
+  CHART-explore-202-1:
+    children: []
+    id: CHART-explore-202-1
+    meta:
+      chartId: 202
+      height: 50
+      sliceName: Bar Chart
+      uuid: 5d2c23c4-d0e5-4ede-a3dd-bf68d5f15702
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-MEqzrV_hLz1tWheDQiJt8
+    type: CHART
+  CHART-explore-203-1:
+    children: []
+    id: CHART-explore-203-1
+    meta:
+      chartId: 203
+      height: 50
+      sliceName: Pie chart
+      uuid: e9376345-6aee-4cff-a3d9-76056b600402
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-MEqzrV_hLz1tWheDQiJt8
+    type: CHART
+  CHART-explore-204-1:
+    children: []
+    id: CHART-explore-204-1
+    meta:
+      chartId: 204
+      height: 50
+      sliceName: 'Horizontal '
+      uuid: d6c481d0-3d53-4fa7-bb29-074ac1c3ae24
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-MEqzrV_hLz1tWheDQiJt8
+    type: CHART
+  CHART-explore-205-1:
+    children: []
+    id: CHART-explore-205-1
+    meta:
+      chartId: 205
+      height: 50
+      sliceName: Scatter chart player-stats
+      uuid: 772a3a87-8283-4b3a-984a-547109bc66dd
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-A9whT3iyZU60TvJf-r2yT
+    type: CHART
+  CHART-explore-206-1:
+    children: []
+    id: CHART-explore-206-1
+    meta:
+      chartId: 206
+      height: 50
+      sliceName: Time-series player stats
+      uuid: 772eb2e7-3b5f-4a4c-92b0-879828816006
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-A9whT3iyZU60TvJf-r2yT
+    type: CHART
+  CHART-explore-207-1:
+    children: []
+    id: CHART-explore-207-1
+    meta:
+      chartId: 207
+      height: 50
+      sliceName: Histogram player stats
+      uuid: 6d853410-e8f4-44b6-a394-7716b70b8ff5
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-A9whT3iyZU60TvJf-r2yT
+    type: CHART
+  CHART-explore-208-1:
+    children: []
+    id: CHART-explore-208-1
+    meta:
+      chartId: 208
+      height: 50
+      sliceName: deck pla
+      uuid: 7f438cc7-26b1-4ef7-aab4-5abef0b09013
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-C6N5EAMRmMMPM35bRbLbz
+    type: CHART
+  CHART-explore-209-1:
+    children: []
+    id: CHART-explore-209-1
+    meta:
+      chartId: 209
+      height: 50
+      sliceName: Treemap
+      uuid: 9425ba56-b5f2-4c6d-8f3b-7ca84345c90c
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-C6N5EAMRmMMPM35bRbLbz
+    type: CHART
+  CHART-explore-210-1:
+    children: []
+    id: CHART-explore-210-1
+    meta:
+      chartId: 210
+      height: 50
+      sliceName: World Cloud
+      uuid: d38b27d8-b20d-4f59-88c9-59f62498f577
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-C6N5EAMRmMMPM35bRbLbz
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-x13miz0NlBtj7lLhxBJV8
+    - ROW-MEqzrV_hLz1tWheDQiJt8
+    - ROW-A9whT3iyZU60TvJf-r2yT
+    - ROW-C6N5EAMRmMMPM35bRbLbz
+    - ROW-N-OGQ6W3P4
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Team Performances
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-A9whT3iyZU60TvJf-r2yT:
+    children:
+    - CHART-explore-205-1
+    - CHART-explore-207-1
+    - CHART-explore-209-1
+    id: ROW-A9whT3iyZU60TvJf-r2yT
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-C6N5EAMRmMMPM35bRbLbz:
+    children:
+    - CHART-explore-208-1
+    - CHART-explore-210-1
+    id: ROW-C6N5EAMRmMMPM35bRbLbz
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-MEqzrV_hLz1tWheDQiJt8:
+    children:
+    - CHART-explore-202-1
+    - CHART-explore-204-1
+    - CHART-explore-206-1
+    id: ROW-MEqzrV_hLz1tWheDQiJt8
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-x13miz0NlBtj7lLhxBJV8:
+    children:
+    - CHART-explore-200-1
+    - CHART-explore-201-1
+    - CHART-explore-203-1
+    id: ROW-x13miz0NlBtj7lLhxBJV8
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-N-OGQ6W3P4:
+    children:
+    - CHART-C777KGB8
+    - CHART-Y05SGA9S
+    - CHART-MH8SSLQG
+    - CHART-E8O4VKD5
+    - CHART-VX22703P
+    - CHART-SYS0XXDD
+    id: ROW-N-OGQ6W3P4
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-C777KGB8:
+    children: []
+    id: CHART-C777KGB8
+    meta:
+      chartId: 291
+      height: 50
+      sliceName: Normalized_points
+      uuid: a7ebc5e6-fc7f-47b5-8364-b70b7b8aa927
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-OGQ6W3P4
+  CHART-Y05SGA9S:
+    children: []
+    id: CHART-Y05SGA9S
+    meta:
+      chartId: 290
+      height: 50
+      sliceName: GROWTH PCT
+      uuid: 7f2787af-22e2-47d4-8cc1-b3c32d708f5d
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-OGQ6W3P4
+  CHART-MH8SSLQG:
+    children: []
+    id: CHART-MH8SSLQG
+    meta:
+      chartId: 211
+      height: 50
+      sliceName: median points
+      uuid: 160b62d5-535f-44d1-854f-9a2fbe1a13a5
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-OGQ6W3P4
+  CHART-E8O4VKD5:
+    children: []
+    id: CHART-E8O4VKD5
+    meta:
+      chartId: 289
+      height: 50
+      sliceName: 'Line chart '
+      uuid: 99443268-acd4-4d3c-93d2-10d3b464324e
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-OGQ6W3P4
+  CHART-VX22703P:
+    children: []
+    id: CHART-VX22703P
+    meta:
+      chartId: 288
+      height: 50
+      sliceName: AVG vs MED
+      uuid: 7dc34dac-cf56-4ae4-a157-7b68264d0e43
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-OGQ6W3P4
+  CHART-SYS0XXDD:
+    children: []
+    id: CHART-SYS0XXDD
+    meta:
+      chartId: 292
+      height: 50
+      sliceName: Grade_Category
+      uuid: 68a8dc5e-1e7d-47ce-bacd-d8ee08a12586
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-OGQ6W3P4
+metadata:
+  color_scheme_domain: []
+  shared_label_colors:
+  - Aaron Craft
+  - Aaron Jackson
+  - Adam Haluska
+  - Adam Mokoka
+  - Admiral Schofield
+  - Adonal Foyle
+  - Adrian Oliver
+  - Ahmed Hill
+  - Alec Peters
+  - Alen Smailagic
+  - Alex Hamilton
+  - Alex Kirk
+  - Amir Coffey
+  - Amir Hinton
+  - Andrew Andrews
+  - Angel Delgado
+  - Angel Rodriguez
+  - Anthony Johnson
+  - Anthony Mason
+  - Anthony Roberson
+  - Antoine Hood
+  - Antonio Daniels
+  - Anzejs Pasecniks
+  - Aric Holman
+  - Armoni Brooks
+  - B.J. Taylor
+  - Barry Brown
+  - Beau Beech
+  - Bennet Davis
+  - Bennie Boatwright
+  - Billy Garrett
+  - Billy Preston
+  - Bo McCalebb
+  - Bol Bol
+  - Bonzi Wells
+  - Braian Angola-Rodas
+  - Brandon Bowman
+  - Brandon Clarke
+  - Brandon Heath
+  - Brandon McCoy
+  - Brian Bowen II
+  - Brian Butch
+  - Brian Hamilton
+  - Brian Qvale
+  - Brian Skinner
+  - Brock Motum
+  - Bronson Koenig
+  - Bruno Fernando
+  - Bryce Dejean-Jones
+  - Bubu Palo
+  - C.J. Anderson
+  - CJ Leslie
+  - CJ Massinburg
+  - Caleb Martin
+  - Cam Reddish
+  - Cameron Johnson
+  - Carleton Scott
+  - Carlon Brown
+  - Carlos Morais
+  - Carlos Powell
+  - Carsen Edwards
+  - Casey Prather
+  - Cat Barber
+  - Charles Brown Jr.
+  - Chris Clemons
+  - Chris Daniels
+  - Chris Kramer
+  - Chris Richard
+  - Chris Silva
+  - Chris Smith
+  - Chris Udofia
+  - Chris Walker
+  - Christ Koumadje
+  - Christian Watford
+  - Coby White
+  - Codi Miller-McIntyre
+  - Cody Demps
+  - Cody Martin
+  - Connor Atchley
+  - Corey Hawkins
+  - Corey Walden
+  - Corey Webster
+  - Coty Clarke
+  - Courtney Fells
+  - Courtney Sims
+  - D'Vauntes Smith-Rivera
+  - D'or Fischer
+  - DJ Strawberry
+  - Dairis Bertans
+  - Dakari Johnson
+  - Dakota Mathias
+  - Damen Bell-Holter
+  - Damien Wilkins
+  - Dan Dickau
+  - Daniel Dixon
+  - Daniel Gafford
+  - Daniel Nwaelele
+  - Darington Hobson
+  - Darion Atkins
+  - Darius Bazley
+  - Darius Garland
+  - Darius Miles
+  - Darnell Lazare
+  - Daulton Hommes
+  - David Kramer
+  - David Lighty
+  - David Monds
+  - David Wear
+  - Davion Berry
+  - De'Andre Hunter
+  - DeShawn Sims
+  - Dean Wade
+  - Dedric Lawson
+  - Dee Brown
+  - Demonte Harper
+  - Dennis Horner
+  - Denzel Livingston
+  - Deonte Burton
+  - Derek Cooke Jr.
+  - Derek Willis
+  - Deron Washington
+  - Derrick Caracter
+  - Deshaun Thomas
+  - Desi Rodriguez
+  - Desmond Mason
+  - Devean George
+  - Devin Cannady
+  - Devin Searcy
+  - Devin Sweetney
+  - Devin Williams
+  - Devon Hall
+  - Devontae Cacok
+  - Dewan Hernandez
+  - Dez Wells
+  - Diamon Simpson
+  - Dionte Christmas
+  - Donta Hall
+  - Dontaye Draper
+  - Dontell Jefferson
+  - Doral Moore
+  - Doug Thomas
+  - Drew Gordon
+  - Drew Naymick
+  - Drew Neitzel
+  - Duje Dukan
+  - Durand Scott
+  - Durrell Summers
+  - Dylan Windler
+  - Eddie Gill
+  - Edgar Sosa
+  - Egidijus Mockevicius
+  - Elgin Cook
+  - Elias Harris
+  - Elijah Stewart
+  - Eric Mika
+  - Eric Paschall
+  - Evan Brock
+  - Frank Hassell
+  - Frank Robinson
+  - Garlon Green
+  - Garrison Mathews
+  - Gary Flowers
+  - George King
+  - George de Paula
+  - Georges Niang
+  - Geron Johnson
+  - Gian Clavell
+  - Gilbert Brown
+  - Goga Bitadze
+  - Goran Suton
+  - Gracin Bakumanya
+  - Grant Williams
+  - Greg Somogyi
+  - Greg Whittington
+  - Hank Thorns
+  - Hassani Gravett
+  - Ignas Brazdeikis
+  - Ike Iroegbu
+  - Isaac Haas
+  - Isaac Hamilton
+  - Isaiah Miles
+  - Isaiah Pineiro
+  - Isaiah Roby
+  - Isaiah Wilkins
+  - Ismaila Kane
+  - J.J. Avila
+  - Ja Morant
+  - JaKeenan Gant
+  - Jacob Pullen
+  - Jacob Wiley
+  - Jairus Lyles
+  - Jake Anderson
+  - Jaleel Cousins
+  - Jalen Adams
+  - Jalen Lecque
+  - Jalen McDaniels
+  - Jamal Sampson
+  - Jamar Smith
+  - James Blackmon Jr.
+  - James Gist
+  - James Mays
+  - James Palmer Jr.
+  - Jan Vesely
+  - Jared Harper
+  - Jared Reiner
+  - Jared Terrell
+  - Jaron Johnson
+  - Jarrell Brantley
+  - Jarrett Culver
+  - Jarvis Hayes
+  - Jason Washburn
+  - Javon Bess
+  - Javonte Green
+  - Jaxson Hayes
+  - Jaylen Barford
+  - Jaylen Hoard
+  - Jaylen Johnson
+  - Jaylen Nowell
+  - Jeff Foote
+  - Jeff Roberson
+  - Jeffrey Carroll
+  - Jeffrey Coby
+  - Jeremiah Martin
+  - Jeremy Morgan
+  - Jeremy Senglin
+  - Jeremy Wise
+  - Jerome Randle
+  - Jerry Smith
+  - Joe Jackson
+  - Joel Berry II
+  - John Egbunu
+  - John Konchar
+  - John Shurna
+  - Johnathan Williams
+  - Johnny Hamilton
+  - Jon Davis
+  - Jon Horford
+  - Jon Scheyer
+  - Jonathan Bender
+  - Jonathan Stark
+  - Jordan Bachynski
+  - Jordan Bone
+  - Jordan Loyd
+  - Jordan Mathews
+  - Jordan Murphy
+  - Jordan Poole
+  - Jordan Williams
+  - Josh Akognon
+  - Josh Boone
+  - Josh Bostic
+  - Josh Davis
+  - Josh Perkins
+  - Josh Reaves
+  - Joshua Smith
+  - Juan Dixon
+  - Juan Toscano-Anderson
+  - Julian Jacobs
+  - Julian Khazzouh
+  - Julian Washburn
+  - Justin Bibbs
+  - Justin Cobbs
+  - Justin James
+  - Justin Robinson
+  - Justin Simon
+  - Justin Wright-Foreman
+  - Juwan Morgan
+  - Juwan Staten
+  - KZ Okpala
+  - Kadeem Batts
+  - Kadeem Jack
+  - Kaleb Tarczewski
+  - Kammron Taylor
+  - Kareem Rush
+  - Kavell Bigby-Williams
+  - Kavion Pippen
+  - Keenan Evans
+  - Keifer Sykes
+  - Keith Hornsby
+  - Kelan Martin
+  - Keldon Johnson
+  - Keljin Blevins
+  - Kennedy Meeks
+  - Kenny Kadji
+  - Kenny Wooten
+  - Kevin Anderson
+  - Kevin Ollie
+  - Kevin Palmer
+  - Kevin Porter Jr.
+  - Khalif Wyatt
+  - Kirk Penney
+  - Kleon Penn
+  - Ky Bowman
+  - Kyle Alexander
+  - Kyle Casey
+  - Kyle Guy
+  - L.J. Peak
+  - LaDontae Henton
+  - Lamar Peters
+  - Lance Allred
+  - Lance Goulbourne
+  - Landry Nnoko
+  - Lanny Smith
+  - Lawrence Hill
+  - Lawrence Roberts
+  - Lazeric Jones
+  - Leon Rodgers
+  - Lindell Wigginton
+  - Lindsey Hunter
+  - Linton Johnson
+  - Livio Jean-Charles
+  - Longar Longar
+  - Loren Woods
+  - Louis King
+  - Luguentz Dort
+  - Luka Samanic
+  - Luke Hancock
+  - Luke Jackson
+  - Luke Maye
+  - Luke Petrasek
+  - Mac Koshwal
+  - Maceo Baston
+  - Malik Hairston
+  - Malik Newman
+  - Mangok Mathiang
+  - Marcus Allen
+  - Marcus Haislip
+  - Marcus Hubbard
+  - Marcus Lee
+  - Marcus Simmons
+  - Mardy Collins
+  - Marial Shayok
+  - Markel Crawford
+  - Marko Guduric
+  - Marques Bolden
+  - Marshall Henderson
+  - Matisse Thybulle
+  - Matt Jones
+  - Matt Matt
+  - Matt Thomas
+  - Matt Williams Jr.
+  - Matur Maker
+  - Maurice Ager
+  - Melo Trimble
+  - Melvin Ejim
+  - Mfiondu Kabengele
+  - Micah Downs
+  - Michael Dunigan
+  - Michael Fey
+  - Michael Holyfield
+  - Michael Jenkins
+  - Michael Lee
+  - Michael Qualls
+  - Michael Ruffin
+  - Michale Kyser
+  - Mickey McConnell
+  - Mike Taylor
+  - Mike Tobey
+  - Mike Young
+  - Mitchell Watt
+  - Miye Oni
+  - Moses Brown
+  - Moses Ehambe
+  - Mychal Mulder
+  - Myck Kabongo
+  - Nassir Little
+  - Naz Reid
+  - Nick King
+  - Nick Minnerath
+  - Nick Wiggins
+  - Nick Zeisloft
+  - Nickeil Alexander-Walker
+  - Nicolas Claxton
+  - Nicolas Laprovittola
+  - Nicolo Melli
+  - Nigel Williams-Goss
+  - Nikola Jovanovic
+  - Nikoloz Tskitishvili
+  - Nnanna Egwu
+  - Norense Odiase
+  - Nuni Omot
+  - Olek Czyz
+  - Oliver Lafayette
+  - Orlando Sanchez
+  - Oscar Bellfield
+  - Oshae Brissett
+  - Othello Hunter
+  - P.J. Washington
+  - Paige Marcus
+  - Patric Young
+  - Paul Davis
+  - Perrion Callandret
+  - Perry Ellis
+  - Peter Jok
+  - Phil Booth
+  - Pooh Jeter
+  - Quincy Douby
+  - Quinndary Weatherspoon
+  - RJ Barrett
+  - Rade Zagorac
+  - Randolph Morris
+  - Raphiael Putney
+  - Rashawn Thomas
+  - Rasheed Sulaimon
+  - Rasho Nesterovic
+  - Rawle Alkins
+  - Rayjon Tucker
+  - Raymond Sykes
+  - Reeves Nelson
+  - Ricardo Marsh
+  - Richard Delk
+  - Richard Howell
+  - Ricky Davis
+  - Rob Gray
+  - Robert Dozier
+  - Robert Franks
+  - Robert Upshaw
+  - Rod Benson
+  - Rodney Williams
+  - Roger Powell
+  - Roko Ukic
+  - Romel Beck
+  - Romeo Langford
+  - Romero Osby
+  - Ron Howard
+  - Ronnie Aguilar
+  - Roscoe Smith
+  - Rui Hachimura
+  - Russell Robinson
+  - Ryan Allen
+  - Ryan Boatright
+  - Ryan Bowen
+  - Ryan Reid
+  - Ryan Thompson
+  - Sagaba Konate
+  - Sam Thompson
+  - Sampson Carter
+  - Sasha Kaun
+  - Scott Wood
+  - Scottie Wilbekin
+  - Sean May
+  - Sean Singletary
+  - Sekou Doumbouya
+  - Shannon Scott
+  - Shaun Pruitt
+  - Shawn Dawson
+  - Shawn Jones
+  - Shawn Long
+  - Sherron Collins
+  - Sim Bhullar
+  - Simisola Shittu
+  - Skyler Flatten
+  - Speedy Claxton
+  - Spencer Nelson
+  - Stanley Robinson
+  - Stanton Kidd
+  - Stefan Jankovic
+  - Stefhon Hannah
+  - Stephane Lasme
+  - Stephen Holt
+  - Steven Gray
+  - Steven Hunter
+  - T.J. Williams
+  - Tacko Fall
+  - Talen Horton-Tucker
+  - Tarence Kinsey
+  - Tariq Owens
+  - Taylor Braun
+  - Terance Mann
+  - Terence Davis
+  - Terran Petteway
+  - Terry Henderson
+  - Terry Larrier
+  - Thomas Gardner
+  - Thomas Kelati
+  - Thomas Walkup
+  - Tibor Pleiss
+  - Tim Bond
+  - Tim Ohlbrecht
+  - Tim Pickett
+  - Tim Thomas
+  - Tiwian Kendley
+  - Todd Withers
+  - Tommy Mitchell
+  - Tommy Smith
+  - Torian Graham
+  - Total Points
+  - Travis Trice II
+  - Tremont Waters
+  - Trent Lockett
+  - Trenton Hassell
+  - Trevon Duval
+  - Trey Freeman
+  - Trey Lewis
+  - Trey Thompkins
+  - Tristan Thompson
+  - Ty Jerome
+  - Tyler Davis
+  - Tyler Herro
+  - Tyler Wilkerson
+  - Tyren Johnson
+  - Tyrius Walker
+  - Tyus Battle
+  - V.J. Beachem
+  - V.J. King
+  - Vashil Fernandez
+  - Vernon Goodridge
+  - Vernon Hamilton
+  - Vernon Macklin
+  - Vic Law
+  - Vincent Edwards
+  - Vincent Grier
+  - Vincent Poirier
+  - Vlatko Cancar
+  - Walter Sharpe
+  - Warren Carter
+  - Wesley Matthews
+  - Wesley Saunders
+  - Wesley Witherspoon
+  - Will Blalock
+  - Will Cummings
+  - William Howard
+  - Willie Warren
+  - Yakuba Ouattara
+  - Yanick Moreira
+  - Yanyuhang Ding
+  - Yao Ming
+  - Youssou Ndoye
+  - Yudai Baba
+  - Yuki Togashi
+  - Zabian Dowdell
+  - Zach Auguste
+  - Zach Lofton
+  - Zach Norvell Jr.
+  - Zach Smith
+  - Zion Williamson
+  - Zylan Cheatham
+  map_label_colors:
+    '1610612737': '#FDE380'
+    '1610612738': '#FF7F44'
+    '1610612739': '#D1C6BC'
+    '1610612740': '#FEC0A1'
+    '1610612741': '#EFA1AA'
+    '1610612742': '#ACE1C4'
+    '1610612743': '#8FD3E4'
+    '1610612744': '#454E7C'
+    '1610612745': '#454E7C'
+    '1610612746': '#A1A6BD'
+    '1610612747': '#FCC700'
+    '1610612748': '#8FD3E4'
+    '1610612749': '#3CCCCB'
+    '1610612750': '#5AC189'
+    '1610612751': '#666666'
+    '1610612752': '#B2B2B2'
+    '1610612753': '#FCC700'
+    '1610612754': '#A868B7'
+    '1610612755': '#D3B3DA'
+    '1610612756': '#9EE5E5'
+    '1610612757': '#A38F79'
+    '1610612758': '#A868B7'
+    '1610612759': '#E04355'
+    '1610612760': '#666666'
+    '1610612761': '#E04355'
+    '1610612762': '#A38F79'
+    '1610612763': '#5AC189'
+    '1610612764': '#FF7F44'
+    '1610612765': '#3CCCCB'
+    '1610612766': '#1FA8C9'
+    Total Points: '#1FA8C9'
+    2.01k: '#454E7C'
+    1.61B: '#5AC189'
+    Frank Robinson: '#FF7F44'
+    Courtney Sims: '#666666'
+    Randolph Morris: '#E04355'
+    Othello Hunter: '#FCC700'
+    Juan Dixon: '#A868B7'
+    Oliver Lafayette: '#3CCCCB'
+    Russell Robinson: '#A38F79'
+    Chris Richard: '#8FD3E4'
+    Lindsey Hunter: '#A1A6BD'
+    Tim Thomas: '#ACE1C4'
+    Dontaye Draper: '#FEC0A1'
+    Speedy Claxton: '#B2B2B2'
+    Shaun Pruitt: '#EFA1AA'
+    Devean George: '#FDE380'
+    Romel Beck: '#D3B3DA'
+    Mardy Collins: '#9EE5E5'
+    Anthony Roberson: '#D1C6BC'
+    Ricky Davis: '#454E7C'
+    Kareem Rush: '#5AC189'
+    Michael Fey: '#FF7F44'
+    Thomas Kelati: '#666666'
+    David Monds: '#E04355'
+    Roko Ukic: '#FCC700'
+    Jared Reiner: '#A868B7'
+    Brian Hamilton: '#3CCCCB'
+    Trenton Hassell: '#A38F79'
+    Jarvis Hayes: '#8FD3E4'
+    Josh Boone: '#A1A6BD'
+    Will Blalock: '#ACE1C4'
+    Bennet Davis: '#FEC0A1'
+    Warren Carter: '#B2B2B2'
+    Jonathan Bender: '#EFA1AA'
+    Linton Johnson: '#FDE380'
+    Anthony Johnson: '#D3B3DA'
+    Adonal Foyle: '#9EE5E5'
+    Lawrence Roberts: '#D1C6BC'
+    Rod Benson: '#D1C6BC'
+    Sean Singletary: '#454E7C'
+    Brandon Bowman: '#5AC189'
+    Dionte Christmas: '#FF7F44'
+    Dan Dickau: '#666666'
+    Carlos Powell: '#E04355'
+    Desmond Mason: '#FCC700'
+    Lanny Smith: '#A868B7'
+    Sean May: '#3CCCCB'
+    Malik Hairston: '#A38F79'
+    Marcus Haislip: '#8FD3E4'
+    Michael Ruffin: '#A1A6BD'
+    Ryan Bowen: '#ACE1C4'
+    Kevin Ollie: '#FEC0A1'
+    Rasho Nesterovic: '#B2B2B2'
+    Quincy Douby: '#EFA1AA'
+    Spencer Nelson: '#FDE380'
+    Wesley Matthews: '#D3B3DA'
+    Goran Suton: '#9EE5E5'
+    Thomas Gardner: '#9EE5E5'
+    Leon Rodgers: '#D1C6BC'
+    Steven Hunter: '#454E7C'
+    Mike Taylor: '#5AC189'
+    Vincent Grier: '#FF7F44'
+    Paul Davis: '#666666'
+    Maceo Baston: '#E04355'
+    Deron Washington: '#FCC700'
+    Dontell Jefferson: '#A868B7'
+    Richard Delk: '#3CCCCB'
+    Ricardo Marsh: '#A38F79'
+    Evan Brock: '#8FD3E4'
+    Stephane Lasme: '#A1A6BD'
+    Loren Woods: '#ACE1C4'
+    DJ Strawberry: '#FEC0A1'
+    Roger Powell: '#B2B2B2'
+    Adam Haluska: '#EFA1AA'
+    Dee Brown: '#FDE380'
+    Vernon Goodridge: '#D3B3DA'
+    Yao Ming: '#D3B3DA'
+    Willie Warren: '#9EE5E5'
+    Jon Scheyer: '#D1C6BC'
+    Derrick Caracter: '#454E7C'
+    Drew Naymick: '#5AC189'
+    Anthony Mason: '#FF7F44'
+    Chris Kramer: '#666666'
+    Maurice Ager: '#E04355'
+    Stanley Robinson: '#FCC700'
+    Lance Allred: '#A868B7'
+    Antonio Daniels: '#3CCCCB'
+    Zabian Dowdell: '#A38F79'
+    Raymond Sykes: '#8FD3E4'
+    Pooh Jeter: '#A1A6BD'
+    Connor Atchley: '#ACE1C4'
+    James Gist: '#FEC0A1'
+    Kirk Penney: '#B2B2B2'
+    Longar Longar: '#EFA1AA'
+    Ryan Thompson: '#FDE380'
+    Luke Jackson: '#FDE380'
+    Kevin Palmer: '#D3B3DA'
+    Vernon Hamilton: '#9EE5E5'
+    Sherron Collins: '#D1C6BC'
+    Darius Miles: '#454E7C'
+    Jamal Sampson: '#5AC189'
+    Gilbert Brown: '#FF7F44'
+    Tristan Thompson: '#666666'
+    Moses Ehambe: '#E04355'
+    Jeff Foote: '#FCC700'
+    Drew Neitzel: '#A868B7'
+    Jerome Randle: '#3CCCCB'
+    Tommy Smith: '#A38F79'
+    Julian Khazzouh: '#8FD3E4'
+    Gary Flowers: '#A1A6BD'
+    Tommy Mitchell: '#ACE1C4'
+    Tim Pickett: '#FEC0A1'
+    Diamon Simpson: '#B2B2B2'
+    Trey Thompkins: '#EFA1AA'
+    Marcus Hubbard: '#EFA1AA'
+    Jeremy Wise: '#FDE380'
+    Darington Hobson: '#D3B3DA'
+    Bonzi Wells: '#9EE5E5'
+    Jerry Smith: '#D1C6BC'
+    Dennis Horner: '#454E7C'
+    Jordan Williams: '#5AC189'
+    Darnell Lazare: '#FF7F44'
+    Tyren Johnson: '#666666'
+    Lawrence Hill: '#E04355'
+    Adrian Oliver: '#FCC700'
+    Frank Hassell: '#A868B7'
+    Antoine Hood: '#3CCCCB'
+    Doug Thomas: '#A38F79'
+    Ryan Reid: '#8FD3E4'
+    Josh Davis: '#A1A6BD'
+    Brian Skinner: '#ACE1C4'
+    Walter Sharpe: '#FEC0A1'
+    Jan Vesely: '#B2B2B2'
+    Vernon Macklin: '#B2B2B2'
+    Damien Wilkins: '#EFA1AA'
+    Durrell Summers: '#FDE380'
+    Jamar Smith: '#D3B3DA'
+    Micah Downs: '#9EE5E5'
+    Kevin Anderson: '#D1C6BC'
+    Ryan Allen: '#454E7C'
+    Josh Akognon: '#5AC189'
+    Lance Goulbourne: '#FF7F44'
+    Tarence Kinsey: '#666666'
+    Carlon Brown: '#E04355'
+    Tim Ohlbrecht: '#FCC700'
+    Hank Thorns: '#A868B7'
+    Ronnie Aguilar: '#3CCCCB'
+    Greg Somogyi: '#A38F79'
+    Reeves Nelson: '#8FD3E4'
+    Robert Dozier: '#A1A6BD'
+    Eddie Gill: '#ACE1C4'
+    Carleton Scott: '#FEC0A1'
+    James Mays: '#FEC0A1'
+    Oscar Bellfield: '#B2B2B2'
+    John Shurna: '#EFA1AA'
+    Devin Searcy: '#FDE380'
+    Demonte Harper: '#D3B3DA'
+    Tyler Wilkerson: '#9EE5E5'
+    Wesley Witherspoon: '#D1C6BC'
+    Brian Butch: '#454E7C'
+    Michael Dunigan: '#5AC189'
+    Steven Gray: '#FF7F44'
+    David Lighty: '#666666'
+    Kammron Taylor: '#E04355'
+    DeShawn Sims: '#FCC700'
+    Damen Bell-Holter: '#A868B7'
+    Kenny Kadji: '#3CCCCB'
+    Michael Lee: '#A38F79'
+    Mickey McConnell: '#8FD3E4'
+    Elias Harris: '#A1A6BD'
+    Olek Czyz: '#ACE1C4'
+    Chris Smith: '#ACE1C4'
+    CJ Leslie: '#FEC0A1'
+    Romero Osby: '#B2B2B2'
+    Ron Howard: '#EFA1AA'
+    Mac Koshwal: '#FDE380'
+    Khalif Wyatt: '#D3B3DA'
+    Rodney Williams: '#9EE5E5'
+    Richard Howell: '#D1C6BC'
+    Trent Lockett: '#454E7C'
+    Brandon Heath: '#5AC189'
+    Myck Kabongo: '#FF7F44'
+    Daniel Nwaelele: '#666666'
+    Courtney Fells: '#E04355'
+    Carlos Morais: '#FCC700'
+    D'or Fischer: '#A868B7'
+    Christian Watford: '#3CCCCB'
+    Stephen Holt: '#A38F79'
+    Alex Kirk: '#8FD3E4'
+    Patric Young: '#A1A6BD'
+    Yuki Togashi: '#A1A6BD'
+    Mitchell Watt: '#ACE1C4'
+    Aaron Craft: '#FEC0A1'
+    Geron Johnson: '#B2B2B2'
+    Roscoe Smith: '#EFA1AA'
+    Shawn Jones: '#FDE380'
+    Orlando Sanchez: '#D3B3DA'
+    Kadeem Batts: '#9EE5E5'
+    Drew Gordon: '#D1C6BC'
+    Casey Prather: '#454E7C'
+    Joe Jackson: '#5AC189'
+    Deonte Burton: '#FF7F44'
+    David Wear: '#666666'
+    Sim Bhullar: '#E04355'
+    Michael Jenkins: '#FCC700'
+    Brock Motum: '#A868B7'
+    Luke Hancock: '#3CCCCB'
+    Josh Bostic: '#A38F79'
+    Brian Qvale: '#8FD3E4'
+    Justin Cobbs: '#8FD3E4'
+    2.02k: '#A1A6BD'
+    Terran Petteway: '#ACE1C4'
+    Edgar Sosa: '#FEC0A1'
+    Coty Clarke: '#B2B2B2'
+    Corey Walden: '#EFA1AA'
+    Nick Minnerath: '#FDE380'
+    Sasha Kaun: '#D3B3DA'
+    Corey Webster: '#9EE5E5'
+    Bryce Dejean-Jones: '#D1C6BC'
+    Bo McCalebb: '#454E7C'
+    Jake Anderson: '#5AC189'
+    Stefhon Hannah: '#FF7F44'
+    Marcus Simmons: '#666666'
+    Devin Sweetney: '#E04355'
+    Chris Udofia: '#FCC700'
+    Juwan Staten: '#A868B7'
+    Joshua Smith: '#3CCCCB'
+    Will Cummings: '#A38F79'
+    Denzel Livingston: '#A38F79'
+    Chris Walker: '#8FD3E4'
+    Nikoloz Tskitishvili: '#A1A6BD'
+    Robert Upshaw: '#ACE1C4'
+    Corey Hawkins: '#FEC0A1'
+    Greg Whittington: '#B2B2B2'
+    Jon Horford: '#EFA1AA'
+    Kleon Penn: '#FDE380'
+    Nick Wiggins: '#D3B3DA'
+    Chris Daniels: '#9EE5E5'
+    Ryan Boatright: '#D1C6BC'
+    Darion Atkins: '#454E7C'
+    Wesley Saunders: '#5AC189'
+    Travis Trice II: '#FF7F44'
+    Nnanna Egwu: '#666666'
+    Melvin Ejim: '#E04355'
+    Kadeem Jack: '#FCC700'
+    Scottie Wilbekin: '#A868B7'
+    Kyle Casey: '#3CCCCB'
+    Duje Dukan: '#3CCCCB'
+    Marshall Henderson: '#A38F79'
+    Deshaun Thomas: '#8FD3E4'
+    Youssou Ndoye: '#A1A6BD'
+    Keifer Sykes: '#ACE1C4'
+    Dez Wells: '#FEC0A1'
+    Michael Qualls: '#B2B2B2'
+    Michale Kyser: '#EFA1AA'
+    Shannon Scott: '#FDE380'
+    Tibor Pleiss: '#D3B3DA'
+    Michael Holyfield: '#9EE5E5'
+    Sampson Carter: '#D1C6BC'
+    Lazeric Jones: '#454E7C'
+    Jaron Johnson: '#5AC189'
+    Jordan Bachynski: '#FF7F44'
+    Sam Thompson: '#666666'
+    Jason Washburn: '#E04355'
+    Shawn Dawson: '#FCC700'
+    Thomas Walkup: '#A868B7'
+    D'Vauntes Smith-Rivera: '#A868B7'
+    J.J. Avila: '#3CCCCB'
+    Jaleel Cousins: '#A38F79'
+    Keith Hornsby: '#8FD3E4'
+    Elgin Cook: '#A1A6BD'
+    Scott Wood: '#ACE1C4'
+    Julian Jacobs: '#FEC0A1'
+    Zach Auguste: '#B2B2B2'
+    Stefan Jankovic: '#EFA1AA'
+    Vashil Fernandez: '#FDE380'
+    Egidijus Mockevicius: '#D3B3DA'
+    Beau Beech: '#9EE5E5'
+    Nick Zeisloft: '#D1C6BC'
+    Cat Barber: '#454E7C'
+    Shawn Long: '#5AC189'
+    Gracin Bakumanya: '#FF7F44'
+    Derek Cooke Jr.: '#666666'
+    Nicolas Laprovittola: '#E04355'
+    Livio Jean-Charles: '#FCC700'
+    Kaleb Tarczewski: '#FCC700'
+    Yanick Moreira: '#A868B7'
+    Trey Freeman: '#3CCCCB'
+    Nikola Jovanovic: '#A38F79'
+    Andrew Andrews: '#8FD3E4'
+    Rasheed Sulaimon: '#A1A6BD'
+    Perry Ellis: '#ACE1C4'
+    Mike Tobey: '#FEC0A1'
+    Jordan Mathews: '#B2B2B2'
+    Devin Williams: '#EFA1AA'
+    L.J. Peak: '#FDE380'
+    Daniel Dixon: '#D3B3DA'
+    Isaac Hamilton: '#9EE5E5'
+    Bronson Koenig: '#D1C6BC'
+    Jaylen Johnson: '#454E7C'
+    Gian Clavell: '#5AC189'
+    Alex Hamilton: '#FF7F44'
+    Georges Niang: '#666666'
+    Aaron Jackson: '#E04355'
+    George de Paula: '#E04355'
+    Ike Iroegbu: '#FCC700'
+    LaDontae Henton: '#A868B7'
+    V.J. Beachem: '#3CCCCB'
+    Matt Williams Jr.: '#A38F79'
+    Melo Trimble: '#8FD3E4'
+    Jacob Wiley: '#A1A6BD'
+    Jeremy Senglin: '#ACE1C4'
+    Yakuba Ouattara: '#FEC0A1'
+    James Blackmon Jr.: '#B2B2B2'
+    Jacob Pullen: '#EFA1AA'
+    Alec Peters: '#FDE380'
+    Peter Jok: '#D3B3DA'
+    Matt Matt: '#9EE5E5'
+    Matt Jones: '#D1C6BC'
+    Rashawn Thomas: '#454E7C'
+    Dakari Johnson: '#5AC189'
+    Davion Berry: '#FF7F44'
+    Kennedy Meeks: '#666666'
+    Taylor Braun: '#666666'
+    Torian Graham: '#E04355'
+    Durand Scott: '#FCC700'
+    Jeremy Morgan: '#A868B7'
+    Rade Zagorac: '#3CCCCB'
+    Mike Young: '#A38F79'
+    Landry Nnoko: '#8FD3E4'
+    Derek Willis: '#A1A6BD'
+    Paige Marcus: '#ACE1C4'
+    Luke Petrasek: '#FEC0A1'
+    Mangok Mathiang: '#B2B2B2'
+    T.J. Williams: '#EFA1AA'
+    Terry Henderson: '#FDE380'
+    C.J. Anderson: '#D3B3DA'
+    Justin Bibbs: '#9EE5E5'
+    Jeff Roberson: '#D1C6BC'
+    Nick King: '#454E7C'
+    Billy Preston: '#5AC189'
+    Dairis Bertans: '#FF7F44'
+    Garlon Green: '#FF7F44'
+    Brandon McCoy: '#666666'
+    Rawle Alkins: '#E04355'
+    Yanyuhang Ding: '#FCC700'
+    Codi Miller-McIntyre: '#A868B7'
+    Rob Gray: '#3CCCCB'
+    Tim Bond: '#A38F79'
+    Angel Rodriguez: '#8FD3E4'
+    Vincent Edwards: '#A1A6BD'
+    Angel Delgado: '#ACE1C4'
+    Desi Rodriguez: '#FEC0A1'
+    Johnathan Williams: '#B2B2B2'
+    Jeffrey Carroll: '#EFA1AA'
+    Joel Berry II: '#FDE380'
+    Marcus Lee: '#D3B3DA'
+    Raphiael Putney: '#9EE5E5'
+    Malik Newman: '#D1C6BC'
+    Trevon Duval: '#454E7C'
+    Jonathan Stark: '#5AC189'
+    Jared Terrell: '#5AC189'
+    Nuni Omot: '#FF7F44'
+    Tyrius Walker: '#666666'
+    Jeffrey Coby: '#E04355'
+    Billy Garrett: '#FCC700'
+    Braian Angola-Rodas: '#A868B7'
+    Elijah Stewart: '#3CCCCB'
+    George King: '#A38F79'
+    Cody Demps: '#8FD3E4'
+    Tyler Davis: '#A1A6BD'
+    Jordan Loyd: '#ACE1C4'
+    Isaac Haas: '#FEC0A1'
+    Jairus Lyles: '#B2B2B2'
+    Trey Lewis: '#EFA1AA'
+    Julian Washburn: '#FDE380'
+    Ismaila Kane: '#D3B3DA'
+    Markel Crawford: '#9EE5E5'
+    Doral Moore: '#D1C6BC'
+    Tiwian Kendley: '#454E7C'
+    Zach Lofton: '#454E7C'
+    Johnny Hamilton: '#5AC189'
+    Keenan Evans: '#FF7F44'
+    Isaiah Wilkins: '#666666'
+    Jaylen Barford: '#E04355'
+    Zach Smith: '#FCC700'
+    Charles Brown Jr.: '#A868B7'
+    Cam Reddish: '#3CCCCB'
+    Armoni Brooks: '#A38F79'
+    De'Andre Hunter: '#8FD3E4'
+    Bruno Fernando: '#A1A6BD'
+    Javonte Green: '#ACE1C4'
+    Tremont Waters: '#FEC0A1'
+    Vincent Poirier: '#B2B2B2'
+    Romeo Langford: '#EFA1AA'
+    Carsen Edwards: '#FDE380'
+    Tacko Fall: '#D3B3DA'
+    Grant Williams: '#9EE5E5'
+    Dean Wade: '#D1C6BC'
+    Marques Bolden: '#454E7C'
+    Kevin Porter Jr.: '#5AC189'
+    Dylan Windler: '#FF7F44'
+    Darius Garland: '#666666'
+    Nicolo Melli: '#E04355'
+    Javon Bess: '#FCC700'
+    Kavell Bigby-Williams: '#A868B7'
+    Zylan Cheatham: '#3CCCCB'
+    Jalen Adams: '#A38F79'
+    Jaxson Hayes: '#8FD3E4'
+    Zion Williamson: '#A1A6BD'
+    Nickeil Alexander-Walker: '#ACE1C4'
+    Simisola Shittu: '#FEC0A1'
+    Adam Mokoka: '#B2B2B2'
+    Daniel Gafford: '#EFA1AA'
+    Perrion Callandret: '#FDE380'
+    Justin Simon: '#D3B3DA'
+    Coby White: '#9EE5E5'
+    Aric Holman: '#D1C6BC'
+    Dakota Mathias: '#D1C6BC'
+    Josh Reaves: '#454E7C'
+    Isaiah Roby: '#5AC189'
+    Yudai Baba: '#FF7F44'
+    Vlatko Cancar: '#666666'
+    Bol Bol: '#E04355'
+    Juan Toscano-Anderson: '#FCC700'
+    Kavion Pippen: '#A868B7'
+    Eric Paschall: '#3CCCCB'
+    Jordan Poole: '#A38F79'
+    Alen Smailagic: '#8FD3E4'
+    Ky Bowman: '#A1A6BD'
+    Chris Clemons: '#ACE1C4'
+    Matur Maker: '#FEC0A1'
+    Amir Coffey: '#B2B2B2'
+    Terry Larrier: '#EFA1AA'
+    Terance Mann: '#FDE380'
+    James Palmer Jr.: '#D3B3DA'
+    Mfiondu Kabengele: '#9EE5E5'
+    B.J. Taylor: '#9EE5E5'
+    Talen Horton-Tucker: '#D1C6BC'
+    Devontae Cacok: '#454E7C'
+    Marcus Allen: '#5AC189'
+    Zach Norvell Jr.: '#FF7F44'
+    KZ Okpala: '#666666'
+    Tyler Herro: '#E04355'
+    Mychal Mulder: '#FCC700'
+    Jeremiah Martin: '#A868B7'
+    Chris Silva: '#3CCCCB'
+    Kyle Alexander: '#A38F79'
+    Skyler Flatten: '#8FD3E4'
+    Bubu Palo: '#A1A6BD'
+    Luke Maye: '#ACE1C4'
+    Rayjon Tucker: '#FEC0A1'
+    Naz Reid: '#B2B2B2'
+    Barry Brown: '#EFA1AA'
+    Kelan Martin: '#FDE380'
+    Jarrett Culver: '#D3B3DA'
+    Jordan Murphy: '#D3B3DA'
+    Lindell Wigginton: '#9EE5E5'
+    Tyus Battle: '#D1C6BC'
+    Jaylen Nowell: '#454E7C'
+    John Egbunu: '#5AC189'
+    Nicolas Claxton: '#FF7F44'
+    CJ Massinburg: '#666666'
+    Devin Cannady: '#E04355'
+    Ignas Brazdeikis: '#FCC700'
+    Amir Hinton: '#A868B7'
+    Kenny Wooten: '#3CCCCB'
+    V.J. King: '#A38F79'
+    Lamar Peters: '#8FD3E4'
+    RJ Barrett: '#A1A6BD'
+    Hassani Gravett: '#ACE1C4'
+    Jon Davis: '#FEC0A1'
+    Vic Law: '#B2B2B2'
+    Goga Bitadze: '#EFA1AA'
+    Brian Bowen II: '#FDE380'
+    JaKeenan Gant: '#FDE380'
+    Matisse Thybulle: '#D3B3DA'
+    Isaiah Miles: '#9EE5E5'
+    Christ Koumadje: '#D1C6BC'
+    Marial Shayok: '#454E7C'
+    Ty Jerome: '#5AC189'
+    Jalen Lecque: '#FF7F44'
+    David Kramer: '#666666'
+    Norense Odiase: '#E04355'
+    Jared Harper: '#FCC700'
+    Cameron Johnson: '#A868B7'
+    Tariq Owens: '#3CCCCB'
+    Nassir Little: '#A38F79'
+    Moses Brown: '#8FD3E4'
+    Jaylen Hoard: '#A1A6BD'
+    Keljin Blevins: '#ACE1C4'
+    Kyle Guy: '#FEC0A1'
+    Eric Mika: '#B2B2B2'
+    Justin James: '#EFA1AA'
+    Isaiah Pineiro: '#EFA1AA'
+    Keldon Johnson: '#FDE380'
+    Luka Samanic: '#D3B3DA'
+    Daulton Hommes: '#9EE5E5'
+    Quinndary Weatherspoon: '#D1C6BC'
+    Dedric Lawson: '#454E7C'
+    Devon Hall: '#5AC189'
+    Darius Bazley: '#FF7F44'
+    Luguentz Dort: '#666666'
+    Matt Thomas: '#E04355'
+    Dewan Hernandez: '#FCC700'
+    Sagaba Konate: '#A868B7'
+    Oshae Brissett: '#3CCCCB'
+    Terence Davis: '#A38F79'
+    Stanton Kidd: '#8FD3E4'
+    Miye Oni: '#A1A6BD'
+    William Howard: '#ACE1C4'
+    Justin Wright-Foreman: '#FEC0A1'
+    Jarrell Brantley: '#B2B2B2'
+    Juwan Morgan: '#B2B2B2'
+    Nigel Williams-Goss: '#EFA1AA'
+    John Konchar: '#FDE380'
+    Bennie Boatwright: '#D3B3DA'
+    Marko Guduric: '#9EE5E5'
+    Brandon Clarke: '#D1C6BC'
+    Ja Morant: '#454E7C'
+    Garrison Mathews: '#5AC189'
+    Phil Booth: '#FF7F44'
+    Justin Robinson: '#666666'
+    Anzejs Pasecniks: '#E04355'
+    Rui Hachimura: '#FCC700'
+    Admiral Schofield: '#A868B7'
+    Sekou Doumbouya: '#3CCCCB'
+    Louis King: '#A38F79'
+    Donta Hall: '#8FD3E4'
+    Todd Withers: '#A1A6BD'
+    Jordan Bone: '#ACE1C4'
+    Caleb Martin: '#FEC0A1'
+    Cody Martin: '#FEC0A1'
+    Josh Perkins: '#B2B2B2'
+    Robert Franks: '#EFA1AA'
+    Ahmed Hill: '#FDE380'
+    Jalen McDaniels: '#D3B3DA'
+    P.J. Washington: '#9EE5E5'
+    undefined: '#1FA8C9'
+    SEASON: '#1FA8C9'
+  label_colors: {}
+  chart_configuration:
+    '201':
+      id: 201
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 200
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 209
+        - 210
+    '202':
+      id: 202
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 200
+        - 201
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 209
+        - 210
+    '203':
+      id: 203
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 200
+        - 201
+        - 202
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 209
+        - 210
+    '204':
+      id: 204
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 205
+        - 206
+        - 207
+        - 208
+        - 209
+        - 210
+    '205':
+      id: 205
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 206
+        - 207
+        - 208
+        - 209
+        - 210
+    '208':
+      id: 208
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 209
+        - 210
+    '209':
+      id: 209
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 210
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 200
+    - 201
+    - 202
+    - 203
+    - 204
+    - 205
+    - 206
+    - 207
+    - 208
+    - 209
+    - 210
+  color_scheme: ''
+  refresh_frequency: 0
+  expanded_slices: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  native_filter_configuration:
+  - id: NATIVE_FILTER-OHA6wALf31W7YYTIMb15k
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      creatable: true
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Drill-down
+    filterType: filter_select
+    targets:
+    - column:
+        name: PLAYER_NAME
+      datasetUuid: d6a5c9a1-83bd-4581-abfd-75c9126174d0
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      excluded: []
+      rootPath:
+      - ROOT_ID
+    type: NATIVE_FILTER
+    description: ''
+  - id: NATIVE_FILTER-m6qJ4pEqfFc5evTe-vbP8
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      creatable: true
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Filter Box
+    filterType: filter_select
+    targets:
+    - column:
+        name: TEAM_ID
+      datasetUuid: d6a5c9a1-83bd-4581-abfd-75c9126174d0
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+theme_uuid: null
+version: 1.0.0
